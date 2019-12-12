@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="vue.min.js"></script>
+<body>
+看我
+<div id="one">
+    hero name: <input v-model="name" >
+    <button @click="click" >提交数据</button>
+    <p>{{name}}</p>
+</div>
+</body>
+<script>
+    new Vue({
+        el:"#one",
+        data:{
+            name : "dsad"
+        },
+        methods:{
+            click:function () {
+                alert(this.name)
+            }
+        }
+    })
+</script>
+</html>
