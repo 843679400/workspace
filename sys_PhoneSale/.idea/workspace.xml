@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b979e81-91d1-41aa-a3dc-894301f0bc29" name="Default Changelist" comment="github第三方登录">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/META-INF/eureka.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sys_PhoneSale.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="3b979e81-91d1-41aa-a3dc-894301f0bc29" name="Default Changelist" comment="github第三方登录" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +212,7 @@
       <workItem from="1576111013419" duration="7343000" />
       <workItem from="1576137841323" duration="4834000" />
       <workItem from="1576194922157" duration="11116000" />
-      <workItem from="1576213926374" duration="5004000" />
+      <workItem from="1576213926374" duration="5487000" />
     </task>
     <task id="LOCAL-00001" summary="github第三方登录">
       <created>1576221712029</created>
