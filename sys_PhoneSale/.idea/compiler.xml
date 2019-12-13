@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="usermanagement" />
-        <module name="viewservice" />
-        <module name="sellsystem" />
+        <module name="statistic-system" />
         <module name="statisticsystem" />
+        <module name="sellsystem" />
+        <module name="usermanagement" />
+        <module name="view-service" />
         <module name="eureka" />
+        <module name="inventorysystem" />
+        <module name="user-management" />
+        <module name="viewservice" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,9 +22,13 @@
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka" options="-parameters" />
+      <module name="inventorysystem" options="-parameters" />
       <module name="sellsystem" options="-parameters" />
+      <module name="statistic-system" options="-parameters" />
       <module name="statisticsystem" options="-parameters" />
+      <module name="user-management" options="-parameters" />
       <module name="usermanagement" options="-parameters" />
+      <module name="view-service" options="-parameters" />
       <module name="viewservice" options="-parameters" />
     </option>
   </component>

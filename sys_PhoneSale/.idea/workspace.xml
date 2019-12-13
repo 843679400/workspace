@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b979e81-91d1-41aa-a3dc-894301f0bc29" name="Default Changelist" comment="" />
+    <list default="true" id="3b979e81-91d1-41aa-a3dc-894301f0bc29" name="Default Changelist" comment="github第三方登录">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/META-INF/eureka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sys_PhoneSale.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sys_PhoneSale" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UpOITarorqdC6fJO7ZAZw02Acs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -37,7 +48,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view-service/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/view-service/src/main/resource/public" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,11 +59,11 @@
       <recent name="com.keji.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\gitspace\sys_PhoneSale\view-service\src\main\resource\public" />
+      <recent name="D:\git\gitspace\sys_PhoneSale\view-service\src\main\resource\static" />
+      <recent name="D:\git\gitspace\sys_PhoneSale\inventory-system\src\main" />
       <recent name="D:\workSpace\sys_PhoneSale\view-service\src\main" />
       <recent name="D:\workSpace\sys_PhoneSale\sellsystem\src\main\resource" />
-      <recent name="D:\workSpace\sys_PhoneSale\statistic-system\src\main\resource" />
-      <recent name="D:\workSpace\sys_PhoneSale\user-management\src\main\resource" />
-      <recent name="D:\workSpace\sys_PhoneSale\statistic-system\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SellSystemServer">
+  <component name="RunManager" selected="Application.PhoneCode">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.keji.App" />
       <module name="eureka" />
@@ -86,6 +97,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keji.util.PhoneCode" />
+      <module name="view-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keji.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="inventorysystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.keji.InventoryServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka" />
       <extension name="coverage">
@@ -95,6 +127,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.keji.MyEurekaServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +141,7 @@
       </method>
     </configuration>
     <configuration name="StatisticSystemServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="statisticsystem" />
+      <module name="statistic-system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.keji.StatisticSystemServer" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -116,7 +149,7 @@
       </method>
     </configuration>
     <configuration name="UserManagementServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="usermanagement" />
+      <module name="user-management" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.keji.*" />
@@ -124,14 +157,17 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.keji.UserManagementServer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ViewService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="viewservice" />
+      <module name="view-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.keji.ViewService" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndTriggerFile" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +177,14 @@
       <item itemvalue="Spring Boot.SellSystemServer" />
       <item itemvalue="Spring Boot.StatisticSystemServer" />
       <item itemvalue="Spring Boot.ViewService" />
+      <item itemvalue="Spring Boot.InventoryServer" />
       <item itemvalue="Spring Boot.MyEurekaServer" />
       <item itemvalue="Spring Boot.UserManagementServer" />
+      <item itemvalue="Application.PhoneCode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneCode" />
         <item itemvalue="Spring Boot.UserManagementServer" />
         <item itemvalue="Spring Boot.MyEurekaServer" />
         <item itemvalue="Application.App" />
@@ -157,17 +196,7 @@
       <serviceView>
         <option name="contentProportion" value="0.23588553" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6f02257f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6f02257f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@55e749f9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -187,7 +216,25 @@
       <workItem from="1576052115758" duration="2105000" />
       <workItem from="1576054253773" duration="1927000" />
       <workItem from="1576111013419" duration="7343000" />
+      <workItem from="1576137841323" duration="4834000" />
+      <workItem from="1576194922157" duration="11116000" />
+      <workItem from="1576213926374" duration="5004000" />
     </task>
+    <task id="LOCAL-00001" summary="github第三方登录">
+      <created>1576221712029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576221712029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="github第三方登录">
+      <created>1576222134131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576222134131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +245,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="github第三方登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="github第三方登录" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-management/src/main/java/com/keji/controller/TestController.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inventory-system" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inventory-system/src/main/resource/static/fetch.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/inventory-system/src/main/resource/static/vue.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/sellsystem" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sellsystem/src/main/resource/static/fetch.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/sellsystem/src/main/resource/static/vue.min.js" charset="GBK" />
@@ -13,7 +16,35 @@
     <file url="file://$PROJECT_DIR$/user-management/src/main/resource/static/fetch.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/user-management/src/main/resource/static/vue.min.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/view-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/about.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/card.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/contact.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/faq.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/help.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/login.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/marketplace.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/offers.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/privacy.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products2.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products3.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products4.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products5.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products6.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products7.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products8.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/products9.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/signup.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/single.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/sitemap.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/public/values.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/fetch.min.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/fonts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/view-service/src/main/resource/static/vue.min.js" charset="GBK" />
   </component>
 </project>
