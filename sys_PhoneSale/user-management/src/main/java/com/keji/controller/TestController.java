@@ -9,4 +9,13 @@ public class TestController {
     public String getc(){
         return "user";
     }
+
+    @RequestMapping("/login")
+    public String getResult(String name,String password){
+        if(name.equals("123") && password.equals("123")){
+            return "ok";
+        }else {
+            return "no";
+        }
+    }
 }

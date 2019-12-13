@@ -13,6 +13,7 @@
       <module>sellsystem</module>
         <module>statistic-system</module>
         <module>view-service</module>
+        <module>inventory-system</module>
     </modules>
     <packaging>pom</packaging>
   <name>sys_PhoneSale</name>

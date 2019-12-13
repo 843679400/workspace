@@ -1,5 +1,6 @@
 package com.keji.controller;
 
+import com.keji.feignClient.InventoryFeifnClient;
 import com.keji.feignClient.SellSystemFeignClient;
 import com.keji.feignClient.StatisticSystemFeignClient;
 import com.keji.feignClient.UserManageMentFeignClient;
@@ -20,6 +21,9 @@ public class TestController {
     @Autowired
     private UserManageMentFeignClient userManageMentFeignClient;
 
+    @Autowired
+    private InventoryFeifnClient inventoryFeifnClient;
+
     @RequestMapping("/sell")
     public String getResutl(){
         return sellSystemFeignClient.getObj();
@@ -33,5 +37,15 @@ public class TestController {
     @RequestMapping("/user")
     public String getu(){
         return userManageMentFeignClient.getObject();
+    }
+
+    @RequestMapping("/login")
+    public String getc(String name,String password){
+        return userManageMentFeignClient.getResult(name,password);
+    }
+
+    @RequestMapping("/inventory")
+    public String getd(){
+        return inventoryFeifnClient.gets();
     }
 }
